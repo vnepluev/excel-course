@@ -1,17 +1,18 @@
 {
-   "parser": "@babel/eslint-parser",
-   "parserOptions": {
-      "requireConfigFile": false
-   },
-   "env": {
-      "es6": true,
-      "browser": true,
-      "node": true
-   },
-   "rules": {
-      "semi": "off",
-      "requireConfigFile": 0,
-      "require-jsdoc": "off"
-   },
-   "extends": ["eslint:recommended", "google"]
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "semi": "off",
+    "requireConfigFile": 0,
+    "require-jsdoc": "off",
+    "object-curly-spacing": "off"
+  },
+  "extends": ["eslint:recommended", "google"]
 }
